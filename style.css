@@ -17,20 +17,29 @@ body{
     font-weight: 600;
 }
 
+/* add style to the whole cards container */
 .cards {
     display: flex;
-  justify-content: flex-end;
-}
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  /* add style to each card in the cars container */
+  .card {
+    flex: 1; 
+    max-width: calc(25% - 10px); 
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* add style to images on the cards */
+  .card img {
+    align-self: flex-end;
+    margin-top: auto; 
+  }
 
-.card{
-background-color: aquamarine;
-}
-.card1 {
-    background-color:aqua;
-}
-.card2 {
-    background-color:aquamarine;
-}
-.card3 {
-    background-color:aqua;
-}
