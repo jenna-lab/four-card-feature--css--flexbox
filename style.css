@@ -3,6 +3,7 @@ body{
    font-family: Poppins,sans-serif;
 }
 .text{
+    justify-content: center;
     text-align: center;
     font-size: 15px;
     color:  hsl(234, 12%, 34%);
@@ -14,6 +15,11 @@ body{
 
 #header2 {
     font-weight: 600;
+}
+
+.cards {
+    display: flex;
+  justify-content: flex-end;
 }
 
 .card{
