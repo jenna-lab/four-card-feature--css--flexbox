@@ -1,0 +1,30 @@
+body{
+   background-color: hsl(0, 0%, 98%);
+   font-family: Poppins,sans-serif;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    color:  hsl(234, 12%, 34%);
+}
+ 
+#header1 {
+    font-weight: 200;
+}
+
+#header2 {
+    font-weight: 600;
+}
+
+.card{
+background-color: aquamarine;
+}
+.card1 {
+    background-color:aqua;
+}
+.card2 {
+    background-color:aquamarine;
+}
+.card3 {
+    background-color:aqua;
+}
